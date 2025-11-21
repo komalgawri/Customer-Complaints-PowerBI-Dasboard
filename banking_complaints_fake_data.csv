@@ -1,0 +1,501 @@
+ComplaintID,DateOpened,DateClosed,Product,Channel,Region,CustomerSegment,IssueType,Severity,Status,IsRepeat,IsSLA_Breached,ResolutionTimeHours,AgentName
+1,2023-01-01,2023-01-03,Mortgage,Mobile App,West,Premier,Login Issue,Low,Resolved,No,No,60,David
+2,2023-01-02,2023-01-04,Insurance,Web Chat,West,Business,Service Failure,High,Resolved,No,No,134,Riya
+3,2023-01-03,2023-01-05,Loan,Email,West,Retail,Info Mismatch,Medium,Resolved,No,No,52,Komal
+4,2023-01-04,2023-01-06,Insurance,Phone,West,Premier,Info Mismatch,Medium,Resolved,No,Yes,150,Sara
+5,2023-01-05,2023-01-07,Insurance,Phone,Central,Retail,Card Blocked,High,Resolved,No,No,13,David
+6,2023-01-06,2023-01-08,Credit Card,Web Chat,Central,Premier,Login Issue,High,In Progress,Yes,No,51,Riya
+7,2023-01-07,2023-01-09,Loan,Mobile App,South,Premier,Incorrect Charges,Low,Escalated,Yes,No,133,Karan
+8,2023-01-08,2023-01-10,Loan,Mobile App,North,Retail,Card Blocked,Low,In Progress,No,No,114,Riya
+9,2023-01-09,2023-01-11,Loan,Email,West,Premier,Info Mismatch,High,In Progress,No,No,171,Komal
+10,2023-01-10,2023-01-12,Insurance,Web Chat,South,Premier,Service Failure,Medium,In Progress,No,No,167,Komal
+11,2023-01-11,2023-01-13,Mortgage,Phone,North,Business,Info Mismatch,Low,Escalated,No,No,154,Amit
+12,2023-01-12,2023-01-14,Loan,Mobile App,East,Premier,Service Failure,Low,Open,No,No,15,David
+13,2023-01-13,2023-01-15,Insurance,Web Chat,Central,Premier,Card Blocked,Medium,Escalated,No,No,33,Amit
+14,2023-01-14,2023-01-16,Credit Card,Mobile App,North,Premier,Login Issue,Low,In Progress,Yes,No,140,Riya
+15,2023-01-15,2023-01-17,Mortgage,Mobile App,East,Business,Info Mismatch,Medium,Resolved,No,No,190,Sara
+16,2023-01-16,2023-01-18,Credit Card,Phone,North,Retail,Service Failure,Medium,Resolved,No,No,147,Sara
+17,2023-01-17,2023-01-19,Mortgage,Branch,Central,Business,Login Issue,Medium,In Progress,No,No,156,Komal
+18,2023-01-18,2023-01-20,Insurance,Email,Central,Business,Incorrect Charges,High,Resolved,No,No,56,Sara
+19,2023-01-19,2023-01-21,Savings,Email,South,Retail,Service Failure,High,In Progress,No,No,183,Sara
+20,2023-01-20,2023-01-22,Mortgage,Phone,West,Business,Card Blocked,High,Resolved,No,No,121,Sara
+21,2023-01-21,2023-01-23,Credit Card,Mobile App,North,Retail,Incorrect Charges,Medium,Escalated,No,No,76,Riya
+22,2023-01-22,2023-01-24,Insurance,Web Chat,North,Business,Incorrect Charges,Medium,Open,No,No,22,Sara
+23,2023-01-23,2023-01-25,Mortgage,Mobile App,East,Retail,Delay,High,Open,No,No,173,Karan
+24,2023-01-24,2023-01-26,Savings,Phone,Central,Premier,Info Mismatch,Low,Escalated,No,No,134,Sara
+25,2023-01-25,2023-01-27,Savings,Email,North,Business,Service Failure,Medium,Escalated,No,No,88,Sara
+26,2023-01-26,2023-01-28,Loan,Mobile App,Central,Business,Incorrect Charges,Low,In Progress,Yes,No,170,Amit
+27,2023-01-27,2023-01-29,Loan,Email,North,Business,Delay,Low,In Progress,No,No,60,Riya
+28,2023-01-28,2023-01-30,Credit Card,Web Chat,South,Business,Card Blocked,Medium,In Progress,No,No,90,Komal
+29,2023-01-29,2023-01-31,Mortgage,Email,West,Premier,Login Issue,Medium,Resolved,No,No,183,Amit
+30,2023-01-30,2023-02-01,Mortgage,Email,North,Business,Service Failure,Low,In Progress,No,No,151,David
+31,2023-01-31,2023-02-02,Loan,Branch,Central,Premier,Incorrect Charges,Low,Escalated,No,No,84,Riya
+32,2023-02-01,2023-02-03,Mortgage,Branch,South,Premier,Info Mismatch,High,Open,No,No,66,Karan
+33,2023-02-02,2023-02-04,Mortgage,Branch,North,Premier,Delay,High,Resolved,No,No,65,Riya
+34,2023-02-03,2023-02-05,Savings,Email,East,Premier,Incorrect Charges,Medium,In Progress,No,Yes,72,David
+35,2023-02-04,2023-02-06,Loan,Phone,West,Retail,Info Mismatch,High,Resolved,Yes,No,5,David
+36,2023-02-05,2023-02-07,Insurance,Email,North,Retail,Incorrect Charges,High,Resolved,No,Yes,194,David
+37,2023-02-06,2023-02-08,Loan,Phone,South,Business,Service Failure,High,In Progress,Yes,No,144,Komal
+38,2023-02-07,2023-02-09,Insurance,Phone,East,Retail,Service Failure,High,Resolved,No,No,105,Sara
+39,2023-02-08,2023-02-10,Savings,Branch,South,Retail,Service Failure,Low,Open,No,No,151,Riya
+40,2023-02-09,2023-02-11,Credit Card,Mobile App,South,Business,Card Blocked,Medium,Escalated,No,No,176,Sara
+41,2023-02-10,2023-02-12,Mortgage,Web Chat,East,Business,Card Blocked,High,Escalated,No,No,94,Sara
+42,2023-02-11,2023-02-13,Savings,Branch,South,Business,Delay,Low,Open,Yes,No,175,Karan
+43,2023-02-12,2023-02-14,Mortgage,Branch,East,Retail,Service Failure,Low,Resolved,No,No,143,David
+44,2023-02-13,2023-02-15,Credit Card,Mobile App,North,Retail,Info Mismatch,Low,In Progress,No,No,179,Komal
+45,2023-02-14,2023-02-16,Credit Card,Web Chat,East,Business,Incorrect Charges,High,Resolved,No,Yes,149,Karan
+46,2023-02-15,2023-02-17,Savings,Email,East,Premier,Login Issue,High,Open,No,No,179,Amit
+47,2023-02-16,2023-02-18,Credit Card,Email,West,Business,Info Mismatch,Medium,Resolved,No,No,113,Komal
+48,2023-02-17,2023-02-19,Insurance,Branch,East,Premier,Card Blocked,High,Escalated,No,No,162,Sara
+49,2023-02-18,2023-02-20,Credit Card,Web Chat,East,Premier,Card Blocked,High,Resolved,No,No,120,Komal
+50,2023-02-19,2023-02-21,Mortgage,Branch,North,Business,Info Mismatch,Low,Open,No,No,60,David
+51,2023-02-20,2023-02-22,Mortgage,Phone,West,Business,Card Blocked,Medium,Escalated,No,No,44,Amit
+52,2023-02-21,2023-02-23,Mortgage,Branch,Central,Business,Service Failure,High,Resolved,No,No,13,David
+53,2023-02-22,2023-02-24,Mortgage,Branch,North,Retail,Delay,High,Resolved,No,Yes,41,Amit
+54,2023-02-23,2023-02-25,Insurance,Email,North,Premier,Incorrect Charges,Low,Escalated,No,No,119,Karan
+55,2023-02-24,2023-02-26,Loan,Email,Central,Retail,Delay,Low,In Progress,No,No,21,Sara
+56,2023-02-25,2023-02-27,Savings,Email,East,Retail,Incorrect Charges,High,Escalated,No,No,167,Amit
+57,2023-02-26,2023-02-28,Mortgage,Phone,South,Business,Incorrect Charges,Medium,In Progress,No,No,132,Amit
+58,2023-02-27,2023-03-01,Credit Card,Email,West,Retail,Delay,Medium,Open,No,No,157,Amit
+59,2023-02-28,2023-03-02,Mortgage,Web Chat,South,Business,Info Mismatch,Low,Open,No,No,185,Komal
+60,2023-03-01,2023-03-03,Credit Card,Mobile App,Central,Premier,Incorrect Charges,Low,Escalated,No,No,91,Karan
+61,2023-03-02,2023-03-04,Credit Card,Web Chat,North,Business,Delay,High,Escalated,No,No,95,Komal
+62,2023-03-03,2023-03-05,Mortgage,Web Chat,North,Retail,Incorrect Charges,Low,Open,No,No,14,Sara
+63,2023-03-04,2023-03-06,Insurance,Email,West,Retail,Login Issue,High,In Progress,No,No,67,Amit
+64,2023-03-05,2023-03-07,Credit Card,Mobile App,North,Business,Info Mismatch,Medium,Open,Yes,No,38,Karan
+65,2023-03-06,2023-03-08,Credit Card,Mobile App,North,Business,Service Failure,Medium,Escalated,No,No,178,Karan
+66,2023-03-07,2023-03-09,Mortgage,Mobile App,West,Retail,Incorrect Charges,High,Open,No,Yes,67,Riya
+67,2023-03-08,2023-03-10,Credit Card,Phone,West,Premier,Login Issue,Low,Escalated,No,No,37,Sara
+68,2023-03-09,2023-03-11,Credit Card,Email,Central,Premier,Service Failure,Medium,Escalated,No,Yes,183,Karan
+69,2023-03-10,2023-03-12,Mortgage,Mobile App,North,Business,Service Failure,Low,Open,Yes,No,27,Amit
+70,2023-03-11,2023-03-13,Mortgage,Phone,North,Premier,Incorrect Charges,Medium,In Progress,No,No,76,Amit
+71,2023-03-12,2023-03-14,Savings,Branch,Central,Retail,Delay,High,Resolved,No,No,109,Karan
+72,2023-03-13,2023-03-15,Insurance,Branch,East,Business,Incorrect Charges,High,Open,No,No,169,Komal
+73,2023-03-14,2023-03-16,Insurance,Phone,East,Retail,Login Issue,High,Resolved,No,No,44,Sara
+74,2023-03-15,2023-03-17,Credit Card,Phone,East,Retail,Service Failure,Medium,Open,No,No,151,Amit
+75,2023-03-16,2023-03-18,Insurance,Email,Central,Premier,Incorrect Charges,Low,Resolved,Yes,No,149,Karan
+76,2023-03-17,2023-03-19,Credit Card,Email,North,Business,Delay,Low,In Progress,No,No,9,Amit
+77,2023-03-18,2023-03-20,Savings,Branch,Central,Business,Incorrect Charges,Low,In Progress,No,Yes,30,Karan
+78,2023-03-19,2023-03-21,Mortgage,Mobile App,Central,Premier,Info Mismatch,Medium,Open,No,No,41,Sara
+79,2023-03-20,2023-03-22,Mortgage,Branch,East,Retail,Delay,Medium,Escalated,No,No,159,Karan
+80,2023-03-21,2023-03-23,Mortgage,Mobile App,South,Retail,Login Issue,Medium,Resolved,Yes,No,129,Riya
+81,2023-03-22,2023-03-24,Insurance,Mobile App,North,Retail,Service Failure,Medium,Escalated,No,No,85,Karan
+82,2023-03-23,2023-03-25,Savings,Email,East,Retail,Incorrect Charges,Medium,Escalated,No,No,117,Karan
+83,2023-03-24,2023-03-26,Insurance,Web Chat,South,Business,Delay,Low,Escalated,No,Yes,184,Sara
+84,2023-03-25,2023-03-27,Insurance,Web Chat,South,Business,Info Mismatch,Medium,In Progress,No,No,145,Karan
+85,2023-03-26,2023-03-28,Savings,Phone,West,Premier,Delay,Medium,Open,No,No,175,Sara
+86,2023-03-27,2023-03-29,Savings,Email,North,Premier,Card Blocked,Low,Open,No,No,63,Riya
+87,2023-03-28,2023-03-30,Savings,Mobile App,South,Business,Info Mismatch,Medium,In Progress,Yes,No,8,Sara
+88,2023-03-29,2023-03-31,Savings,Web Chat,East,Business,Login Issue,Low,In Progress,No,No,46,Amit
+89,2023-03-30,2023-04-01,Mortgage,Mobile App,West,Retail,Service Failure,Low,Open,No,No,188,Sara
+90,2023-03-31,2023-04-02,Loan,Web Chat,North,Retail,Login Issue,High,Escalated,No,No,185,Riya
+91,2023-04-01,2023-04-03,Loan,Web Chat,Central,Premier,Incorrect Charges,High,Resolved,No,No,177,David
+92,2023-04-02,2023-04-04,Savings,Web Chat,East,Business,Delay,High,Resolved,Yes,Yes,156,Karan
+93,2023-04-03,2023-04-05,Loan,Email,South,Premier,Card Blocked,High,Resolved,No,No,182,Sara
+94,2023-04-04,2023-04-06,Loan,Branch,South,Business,Info Mismatch,Medium,Escalated,No,No,89,Karan
+95,2023-04-05,2023-04-07,Savings,Mobile App,East,Retail,Info Mismatch,High,Open,No,No,74,Komal
+96,2023-04-06,2023-04-08,Loan,Email,South,Premier,Delay,Low,In Progress,Yes,No,164,Amit
+97,2023-04-07,2023-04-09,Insurance,Email,West,Premier,Card Blocked,Medium,Open,No,Yes,180,Amit
+98,2023-04-08,2023-04-10,Credit Card,Email,North,Business,Delay,High,Escalated,No,No,38,Komal
+99,2023-04-09,2023-04-11,Credit Card,Email,West,Retail,Incorrect Charges,Low,In Progress,No,No,120,Komal
+100,2023-04-10,2023-04-12,Savings,Email,South,Premier,Login Issue,Medium,Escalated,No,No,58,Sara
+101,2023-04-11,2023-04-13,Mortgage,Phone,Central,Retail,Info Mismatch,Medium,Resolved,No,Yes,9,Komal
+102,2023-04-12,2023-04-14,Savings,Mobile App,North,Premier,Incorrect Charges,High,Resolved,No,No,96,David
+103,2023-04-13,2023-04-15,Mortgage,Email,North,Retail,Login Issue,Medium,Escalated,Yes,No,118,Karan
+104,2023-04-14,2023-04-16,Credit Card,Mobile App,East,Business,Incorrect Charges,Low,In Progress,No,No,111,Karan
+105,2023-04-15,2023-04-17,Savings,Phone,East,Premier,Card Blocked,Medium,In Progress,Yes,No,21,Riya
+106,2023-04-16,2023-04-18,Insurance,Phone,Central,Premier,Info Mismatch,Low,Open,No,No,125,Komal
+107,2023-04-17,2023-04-19,Loan,Mobile App,North,Retail,Delay,Medium,Resolved,No,No,54,Komal
+108,2023-04-18,2023-04-20,Mortgage,Web Chat,Central,Retail,Delay,High,Open,Yes,No,120,David
+109,2023-04-19,2023-04-21,Loan,Branch,East,Premier,Login Issue,Low,Open,No,No,13,Amit
+110,2023-04-20,2023-04-22,Loan,Web Chat,East,Business,Service Failure,Medium,Escalated,Yes,No,178,Amit
+111,2023-04-21,2023-04-23,Savings,Web Chat,North,Retail,Card Blocked,Medium,Escalated,No,No,18,Karan
+112,2023-04-22,2023-04-24,Loan,Web Chat,West,Retail,Login Issue,Medium,Open,No,No,65,Karan
+113,2023-04-23,2023-04-25,Insurance,Email,South,Retail,Service Failure,Low,Resolved,Yes,No,43,Sara
+114,2023-04-24,2023-04-26,Loan,Phone,East,Premier,Incorrect Charges,Low,Escalated,No,No,95,David
+115,2023-04-25,2023-04-27,Savings,Web Chat,East,Premier,Card Blocked,Low,Open,No,No,158,Riya
+116,2023-04-26,2023-04-28,Insurance,Phone,West,Premier,Incorrect Charges,High,Open,No,Yes,148,Riya
+117,2023-04-27,2023-04-29,Credit Card,Mobile App,West,Premier,Info Mismatch,High,Open,Yes,Yes,12,David
+118,2023-04-28,2023-04-30,Loan,Branch,Central,Business,Card Blocked,Low,Open,No,No,99,Riya
+119,2023-04-29,2023-05-01,Savings,Mobile App,Central,Business,Service Failure,Medium,Open,No,No,179,Amit
+120,2023-04-30,2023-05-02,Credit Card,Mobile App,South,Premier,Info Mismatch,High,Open,No,Yes,72,Riya
+121,2023-05-01,2023-05-03,Credit Card,Email,South,Business,Delay,Low,Escalated,Yes,No,109,Riya
+122,2023-05-02,2023-05-04,Mortgage,Branch,North,Retail,Service Failure,Medium,Resolved,Yes,No,59,David
+123,2023-05-03,2023-05-05,Insurance,Mobile App,Central,Retail,Login Issue,High,Open,No,No,35,David
+124,2023-05-04,2023-05-06,Loan,Mobile App,East,Retail,Delay,Medium,In Progress,No,No,21,Riya
+125,2023-05-05,2023-05-07,Savings,Branch,Central,Premier,Delay,Medium,Escalated,No,Yes,51,Komal
+126,2023-05-06,2023-05-08,Mortgage,Branch,East,Retail,Login Issue,Medium,Escalated,No,No,103,David
+127,2023-05-07,2023-05-09,Insurance,Mobile App,West,Business,Card Blocked,Medium,Open,No,No,139,Sara
+128,2023-05-08,2023-05-10,Mortgage,Branch,Central,Premier,Delay,High,Escalated,No,No,161,Sara
+129,2023-05-09,2023-05-11,Insurance,Mobile App,West,Business,Service Failure,High,Open,No,No,53,Amit
+130,2023-05-10,2023-05-12,Insurance,Mobile App,South,Retail,Info Mismatch,High,Resolved,No,No,16,Riya
+131,2023-05-11,2023-05-13,Loan,Email,South,Retail,Delay,Low,Resolved,No,No,85,Komal
+132,2023-05-12,2023-05-14,Insurance,Web Chat,North,Retail,Service Failure,High,Escalated,No,No,132,Amit
+133,2023-05-13,2023-05-15,Mortgage,Mobile App,Central,Premier,Incorrect Charges,Medium,Escalated,No,No,38,Riya
+134,2023-05-14,2023-05-16,Insurance,Phone,West,Business,Service Failure,High,In Progress,No,No,127,David
+135,2023-05-15,2023-05-17,Loan,Web Chat,East,Premier,Info Mismatch,Medium,Escalated,No,No,41,Sara
+136,2023-05-16,2023-05-18,Loan,Web Chat,South,Premier,Service Failure,Low,In Progress,No,Yes,73,Karan
+137,2023-05-17,2023-05-19,Mortgage,Web Chat,South,Retail,Login Issue,Medium,Resolved,No,No,41,Komal
+138,2023-05-18,2023-05-20,Credit Card,Email,East,Premier,Info Mismatch,Medium,Resolved,No,No,57,Karan
+139,2023-05-19,2023-05-21,Credit Card,Mobile App,West,Premier,Card Blocked,Medium,Open,Yes,No,152,Sara
+140,2023-05-20,2023-05-22,Insurance,Email,West,Retail,Incorrect Charges,Low,Resolved,No,No,105,Karan
+141,2023-05-21,2023-05-23,Savings,Mobile App,Central,Premier,Login Issue,High,In Progress,No,No,140,David
+142,2023-05-22,2023-05-24,Insurance,Email,Central,Retail,Card Blocked,High,Escalated,No,No,111,Riya
+143,2023-05-23,2023-05-25,Mortgage,Email,North,Retail,Service Failure,Low,Open,No,No,193,David
+144,2023-05-24,2023-05-26,Mortgage,Phone,South,Retail,Info Mismatch,Medium,In Progress,No,No,137,Karan
+145,2023-05-25,2023-05-27,Mortgage,Email,Central,Retail,Incorrect Charges,High,Escalated,Yes,No,94,David
+146,2023-05-26,2023-05-28,Mortgage,Branch,West,Premier,Login Issue,Low,Open,No,Yes,95,Sara
+147,2023-05-27,2023-05-29,Mortgage,Phone,East,Retail,Card Blocked,High,Resolved,No,No,57,Komal
+148,2023-05-28,2023-05-30,Loan,Email,West,Retail,Card Blocked,Low,In Progress,No,No,61,David
+149,2023-05-29,2023-05-31,Credit Card,Web Chat,South,Premier,Incorrect Charges,Medium,Escalated,No,No,139,Sara
+150,2023-05-30,2023-06-01,Mortgage,Branch,West,Premier,Service Failure,High,Open,No,No,40,Komal
+151,2023-05-31,2023-06-02,Savings,Branch,North,Business,Incorrect Charges,Low,Open,No,No,29,Riya
+152,2023-06-01,2023-06-03,Savings,Branch,South,Premier,Card Blocked,High,Resolved,No,No,50,Karan
+153,2023-06-02,2023-06-04,Savings,Phone,East,Premier,Delay,High,Escalated,Yes,No,165,Riya
+154,2023-06-03,2023-06-05,Savings,Email,North,Business,Login Issue,High,Resolved,No,No,126,Amit
+155,2023-06-04,2023-06-06,Loan,Email,South,Premier,Incorrect Charges,High,Resolved,No,No,14,Sara
+156,2023-06-05,2023-06-07,Savings,Web Chat,East,Premier,Card Blocked,Low,Escalated,No,Yes,37,Komal
+157,2023-06-06,2023-06-08,Mortgage,Web Chat,North,Premier,Service Failure,Medium,Escalated,No,Yes,102,David
+158,2023-06-07,2023-06-09,Insurance,Branch,North,Premier,Card Blocked,Low,Escalated,Yes,No,27,Riya
+159,2023-06-08,2023-06-10,Savings,Web Chat,South,Business,Service Failure,Low,In Progress,No,Yes,87,Komal
+160,2023-06-09,2023-06-11,Loan,Phone,Central,Premier,Incorrect Charges,Low,Escalated,Yes,No,5,Sara
+161,2023-06-10,2023-06-12,Loan,Email,North,Premier,Service Failure,Medium,Open,No,No,83,Amit
+162,2023-06-11,2023-06-13,Savings,Branch,North,Business,Info Mismatch,High,Resolved,No,No,193,Riya
+163,2023-06-12,2023-06-14,Insurance,Web Chat,East,Retail,Info Mismatch,High,In Progress,Yes,No,167,Karan
+164,2023-06-13,2023-06-15,Savings,Phone,West,Business,Info Mismatch,High,Escalated,No,No,128,Komal
+165,2023-06-14,2023-06-16,Loan,Phone,South,Retail,Delay,Medium,In Progress,Yes,No,89,Karan
+166,2023-06-15,2023-06-17,Credit Card,Web Chat,South,Business,Incorrect Charges,High,Escalated,No,Yes,128,Komal
+167,2023-06-16,2023-06-18,Mortgage,Email,Central,Business,Card Blocked,Medium,In Progress,No,No,121,Komal
+168,2023-06-17,2023-06-19,Loan,Web Chat,Central,Premier,Card Blocked,High,Resolved,Yes,No,23,Sara
+169,2023-06-18,2023-06-20,Savings,Branch,South,Retail,Delay,High,Resolved,No,No,131,Sara
+170,2023-06-19,2023-06-21,Mortgage,Web Chat,Central,Premier,Service Failure,Low,Open,Yes,No,32,Sara
+171,2023-06-20,2023-06-22,Savings,Phone,East,Retail,Delay,Medium,Open,No,No,120,David
+172,2023-06-21,2023-06-23,Savings,Web Chat,South,Business,Service Failure,Low,Escalated,No,Yes,12,Komal
+173,2023-06-22,2023-06-24,Credit Card,Email,Central,Business,Service Failure,Low,Resolved,No,No,47,Riya
+174,2023-06-23,2023-06-25,Mortgage,Mobile App,South,Retail,Login Issue,Low,In Progress,Yes,No,97,Karan
+175,2023-06-24,2023-06-26,Mortgage,Web Chat,West,Premier,Card Blocked,Medium,In Progress,No,No,191,Sara
+176,2023-06-25,2023-06-27,Credit Card,Email,North,Premier,Info Mismatch,Medium,In Progress,No,Yes,198,Sara
+177,2023-06-26,2023-06-28,Loan,Email,South,Premier,Service Failure,High,Open,No,No,193,Karan
+178,2023-06-27,2023-06-29,Savings,Phone,North,Premier,Login Issue,Low,In Progress,No,No,11,Karan
+179,2023-06-28,2023-06-30,Insurance,Email,Central,Business,Card Blocked,High,Open,No,No,169,Komal
+180,2023-06-29,2023-07-01,Savings,Email,North,Business,Info Mismatch,Low,Open,No,No,129,Sara
+181,2023-06-30,2023-07-02,Savings,Email,South,Business,Service Failure,Medium,Escalated,No,Yes,153,Karan
+182,2023-07-01,2023-07-03,Loan,Email,West,Business,Service Failure,Medium,In Progress,No,No,100,David
+183,2023-07-02,2023-07-04,Savings,Branch,Central,Business,Delay,Medium,In Progress,No,No,173,David
+184,2023-07-03,2023-07-05,Credit Card,Branch,South,Premier,Delay,Low,Resolved,No,No,113,Sara
+185,2023-07-04,2023-07-06,Credit Card,Phone,Central,Premier,Card Blocked,Medium,Escalated,Yes,No,61,Karan
+186,2023-07-05,2023-07-07,Mortgage,Web Chat,East,Premier,Info Mismatch,Low,Resolved,No,Yes,191,Komal
+187,2023-07-06,2023-07-08,Insurance,Email,North,Premier,Service Failure,High,Escalated,No,No,88,Komal
+188,2023-07-07,2023-07-09,Savings,Web Chat,East,Business,Card Blocked,Low,In Progress,No,No,146,Komal
+189,2023-07-08,2023-07-10,Savings,Web Chat,South,Business,Card Blocked,High,Open,No,No,66,Amit
+190,2023-07-09,2023-07-11,Loan,Phone,West,Business,Incorrect Charges,Low,Open,No,No,58,Sara
+191,2023-07-10,2023-07-12,Credit Card,Email,Central,Retail,Delay,High,Open,Yes,No,184,Komal
+192,2023-07-11,2023-07-13,Insurance,Email,North,Premier,Info Mismatch,Medium,Open,Yes,No,107,David
+193,2023-07-12,2023-07-14,Mortgage,Mobile App,Central,Premier,Service Failure,High,Open,No,No,182,Karan
+194,2023-07-13,2023-07-15,Credit Card,Web Chat,South,Business,Card Blocked,Medium,Resolved,No,No,185,Riya
+195,2023-07-14,2023-07-16,Mortgage,Web Chat,Central,Premier,Service Failure,Medium,Escalated,No,No,10,Riya
+196,2023-07-15,2023-07-17,Loan,Branch,North,Premier,Incorrect Charges,High,In Progress,No,No,23,Komal
+197,2023-07-16,2023-07-18,Loan,Mobile App,South,Business,Info Mismatch,Low,Resolved,No,No,142,Riya
+198,2023-07-17,2023-07-19,Savings,Branch,Central,Retail,Card Blocked,Low,Escalated,No,Yes,90,Riya
+199,2023-07-18,2023-07-20,Insurance,Branch,West,Retail,Service Failure,Low,Open,No,No,177,Amit
+200,2023-07-19,2023-07-21,Mortgage,Branch,South,Retail,Delay,Low,Escalated,Yes,No,19,David
+201,2023-07-20,2023-07-22,Credit Card,Phone,South,Business,Incorrect Charges,Low,Escalated,No,No,116,David
+202,2023-07-21,2023-07-23,Loan,Phone,West,Premier,Info Mismatch,Medium,Open,No,No,169,Amit
+203,2023-07-22,2023-07-24,Savings,Branch,East,Business,Incorrect Charges,Low,Open,Yes,No,146,Amit
+204,2023-07-23,2023-07-25,Savings,Mobile App,North,Business,Delay,Medium,Open,No,No,144,Riya
+205,2023-07-24,2023-07-26,Mortgage,Web Chat,East,Premier,Info Mismatch,Medium,In Progress,No,No,107,Sara
+206,2023-07-25,2023-07-27,Loan,Mobile App,Central,Retail,Incorrect Charges,Medium,Open,No,No,16,Karan
+207,2023-07-26,2023-07-28,Insurance,Email,West,Retail,Login Issue,High,In Progress,No,No,64,Karan
+208,2023-07-27,2023-07-29,Loan,Phone,East,Business,Delay,High,Open,No,No,168,Riya
+209,2023-07-28,2023-07-30,Mortgage,Web Chat,South,Retail,Delay,Medium,In Progress,No,No,14,Karan
+210,2023-07-29,2023-07-31,Mortgage,Web Chat,Central,Business,Delay,High,Escalated,No,No,82,Amit
+211,2023-07-30,2023-08-01,Loan,Email,Central,Business,Login Issue,Low,Resolved,No,No,33,David
+212,2023-07-31,2023-08-02,Mortgage,Email,East,Premier,Login Issue,Low,Escalated,Yes,No,138,Karan
+213,2023-08-01,2023-08-03,Loan,Branch,East,Premier,Service Failure,Medium,Escalated,No,No,41,Riya
+214,2023-08-02,2023-08-04,Credit Card,Phone,West,Premier,Card Blocked,Low,Open,No,No,149,Sara
+215,2023-08-03,2023-08-05,Loan,Phone,North,Business,Incorrect Charges,Medium,In Progress,No,No,83,Riya
+216,2023-08-04,2023-08-06,Loan,Mobile App,East,Premier,Service Failure,Medium,Resolved,No,Yes,78,Komal
+217,2023-08-05,2023-08-07,Mortgage,Branch,East,Retail,Incorrect Charges,Low,Open,No,No,192,Riya
+218,2023-08-06,2023-08-08,Mortgage,Branch,South,Retail,Card Blocked,High,Open,No,No,77,Amit
+219,2023-08-07,2023-08-09,Savings,Branch,Central,Business,Login Issue,Low,Open,No,No,173,David
+220,2023-08-08,2023-08-10,Savings,Branch,North,Business,Card Blocked,Low,Escalated,No,Yes,39,David
+221,2023-08-09,2023-08-11,Credit Card,Phone,South,Premier,Login Issue,Medium,In Progress,No,No,189,Karan
+222,2023-08-10,2023-08-12,Savings,Phone,West,Business,Card Blocked,Medium,In Progress,No,No,72,Amit
+223,2023-08-11,2023-08-13,Loan,Branch,West,Business,Service Failure,Medium,Resolved,No,Yes,49,Komal
+224,2023-08-12,2023-08-14,Mortgage,Mobile App,East,Retail,Info Mismatch,Medium,In Progress,No,No,19,Amit
+225,2023-08-13,2023-08-15,Savings,Web Chat,East,Retail,Service Failure,High,In Progress,Yes,No,145,Riya
+226,2023-08-14,2023-08-16,Savings,Web Chat,West,Premier,Incorrect Charges,High,Open,No,Yes,184,Amit
+227,2023-08-15,2023-08-17,Credit Card,Mobile App,East,Business,Service Failure,High,Open,No,No,40,Amit
+228,2023-08-16,2023-08-18,Credit Card,Branch,North,Business,Delay,Medium,Escalated,No,No,197,Komal
+229,2023-08-17,2023-08-19,Loan,Phone,East,Retail,Incorrect Charges,Medium,Open,No,No,188,Riya
+230,2023-08-18,2023-08-20,Mortgage,Web Chat,Central,Business,Card Blocked,Medium,Open,No,No,90,Sara
+231,2023-08-19,2023-08-21,Credit Card,Email,East,Retail,Incorrect Charges,High,Open,No,No,63,Sara
+232,2023-08-20,2023-08-22,Savings,Email,South,Premier,Info Mismatch,Medium,Open,Yes,No,142,David
+233,2023-08-21,2023-08-23,Mortgage,Mobile App,North,Retail,Login Issue,Low,Escalated,No,Yes,110,Karan
+234,2023-08-22,2023-08-24,Mortgage,Branch,South,Business,Card Blocked,Low,Open,No,No,82,Amit
+235,2023-08-23,2023-08-25,Savings,Web Chat,South,Premier,Incorrect Charges,Medium,Resolved,No,No,135,David
+236,2023-08-24,2023-08-26,Credit Card,Branch,Central,Retail,Card Blocked,Low,Resolved,Yes,No,78,Komal
+237,2023-08-25,2023-08-27,Savings,Web Chat,North,Retail,Card Blocked,Low,Resolved,Yes,No,189,Sara
+238,2023-08-26,2023-08-28,Mortgage,Mobile App,North,Premier,Card Blocked,High,Resolved,No,No,91,Amit
+239,2023-08-27,2023-08-29,Insurance,Mobile App,North,Premier,Login Issue,Medium,Open,No,Yes,15,Komal
+240,2023-08-28,2023-08-30,Insurance,Email,North,Retail,Service Failure,Medium,Resolved,No,No,96,Karan
+241,2023-08-29,2023-08-31,Loan,Branch,North,Business,Card Blocked,High,Open,Yes,No,55,Komal
+242,2023-08-30,2023-09-01,Savings,Email,Central,Retail,Delay,Low,Escalated,No,No,133,Amit
+243,2023-08-31,2023-09-02,Savings,Branch,East,Premier,Info Mismatch,Low,Resolved,No,No,40,Karan
+244,2023-09-01,2023-09-03,Loan,Email,South,Retail,Login Issue,Medium,In Progress,Yes,No,73,Komal
+245,2023-09-02,2023-09-04,Loan,Phone,North,Premier,Incorrect Charges,Low,Resolved,Yes,No,26,Karan
+246,2023-09-03,2023-09-05,Loan,Phone,East,Premier,Login Issue,High,Resolved,No,No,78,Amit
+247,2023-09-04,2023-09-06,Mortgage,Phone,East,Business,Incorrect Charges,High,Open,No,No,161,Amit
+248,2023-09-05,2023-09-07,Savings,Phone,South,Premier,Login Issue,Medium,Resolved,No,No,188,Karan
+249,2023-09-06,2023-09-08,Mortgage,Web Chat,Central,Premier,Incorrect Charges,High,In Progress,No,No,192,Riya
+250,2023-09-07,2023-09-09,Loan,Phone,West,Business,Card Blocked,High,Open,No,No,167,David
+251,2023-09-08,2023-09-10,Savings,Mobile App,West,Premier,Service Failure,Medium,Open,Yes,No,121,Komal
+252,2023-09-09,2023-09-11,Mortgage,Mobile App,East,Business,Incorrect Charges,High,Escalated,No,No,54,Komal
+253,2023-09-10,2023-09-12,Mortgage,Web Chat,South,Business,Incorrect Charges,High,Escalated,No,No,196,Riya
+254,2023-09-11,2023-09-13,Loan,Phone,West,Premier,Delay,High,Resolved,No,No,157,Riya
+255,2023-09-12,2023-09-14,Savings,Phone,East,Premier,Incorrect Charges,Low,Escalated,No,No,132,Riya
+256,2023-09-13,2023-09-15,Loan,Phone,Central,Retail,Delay,Medium,Escalated,No,No,151,Sara
+257,2023-09-14,2023-09-16,Savings,Email,West,Business,Info Mismatch,Medium,Escalated,No,Yes,97,Sara
+258,2023-09-15,2023-09-17,Insurance,Branch,East,Retail,Card Blocked,Medium,Open,No,No,167,Karan
+259,2023-09-16,2023-09-18,Credit Card,Email,East,Premier,Delay,Low,Open,No,No,73,Sara
+260,2023-09-17,2023-09-19,Credit Card,Branch,North,Retail,Service Failure,Low,Open,No,No,63,Amit
+261,2023-09-18,2023-09-20,Credit Card,Phone,Central,Business,Card Blocked,Medium,Escalated,Yes,No,186,Karan
+262,2023-09-19,2023-09-21,Loan,Phone,North,Retail,Delay,Low,Open,Yes,No,7,Komal
+263,2023-09-20,2023-09-22,Insurance,Email,South,Business,Card Blocked,Medium,Escalated,No,No,33,David
+264,2023-09-21,2023-09-23,Savings,Email,North,Premier,Card Blocked,Low,Open,No,No,100,Amit
+265,2023-09-22,2023-09-24,Mortgage,Branch,North,Premier,Card Blocked,High,Open,Yes,No,139,Komal
+266,2023-09-23,2023-09-25,Savings,Mobile App,West,Business,Info Mismatch,High,In Progress,No,No,132,Komal
+267,2023-09-24,2023-09-26,Mortgage,Branch,East,Premier,Service Failure,Medium,Resolved,Yes,No,188,Karan
+268,2023-09-25,2023-09-27,Savings,Email,Central,Premier,Login Issue,Low,Escalated,No,No,77,Riya
+269,2023-09-26,2023-09-28,Insurance,Email,North,Premier,Login Issue,Low,In Progress,No,No,178,Riya
+270,2023-09-27,2023-09-29,Mortgage,Web Chat,Central,Premier,Delay,High,Open,No,No,60,Amit
+271,2023-09-28,2023-09-30,Loan,Email,North,Business,Card Blocked,High,Escalated,No,No,32,Riya
+272,2023-09-29,2023-10-01,Savings,Web Chat,South,Retail,Delay,Low,Open,No,No,94,Komal
+273,2023-09-30,2023-10-02,Savings,Mobile App,North,Retail,Info Mismatch,Low,Resolved,Yes,No,70,Riya
+274,2023-10-01,2023-10-03,Mortgage,Branch,West,Premier,Info Mismatch,Low,In Progress,No,Yes,191,Sara
+275,2023-10-02,2023-10-04,Loan,Branch,East,Retail,Incorrect Charges,Low,Resolved,No,No,53,Riya
+276,2023-10-03,2023-10-05,Loan,Web Chat,South,Retail,Info Mismatch,Low,In Progress,No,Yes,90,Komal
+277,2023-10-04,2023-10-06,Insurance,Branch,North,Premier,Incorrect Charges,Low,Open,No,No,128,Karan
+278,2023-10-05,2023-10-07,Loan,Email,Central,Premier,Service Failure,Medium,Resolved,Yes,No,170,Amit
+279,2023-10-06,2023-10-08,Loan,Phone,South,Retail,Delay,Low,Resolved,No,No,32,David
+280,2023-10-07,2023-10-09,Loan,Web Chat,South,Business,Service Failure,High,Open,No,No,85,Riya
+281,2023-10-08,2023-10-10,Credit Card,Branch,North,Premier,Info Mismatch,Medium,Resolved,No,Yes,128,Komal
+282,2023-10-09,2023-10-11,Insurance,Web Chat,South,Business,Service Failure,Low,Escalated,No,Yes,151,David
+283,2023-10-10,2023-10-12,Savings,Web Chat,Central,Retail,Service Failure,High,In Progress,No,No,133,David
+284,2023-10-11,2023-10-13,Mortgage,Phone,South,Premier,Service Failure,Medium,In Progress,No,No,14,Sara
+285,2023-10-12,2023-10-14,Savings,Email,Central,Business,Info Mismatch,High,In Progress,Yes,No,46,David
+286,2023-10-13,2023-10-15,Insurance,Web Chat,North,Premier,Card Blocked,Low,Escalated,No,No,128,Karan
+287,2023-10-14,2023-10-16,Mortgage,Branch,East,Retail,Service Failure,Low,In Progress,No,Yes,171,Komal
+288,2023-10-15,2023-10-17,Insurance,Mobile App,South,Business,Incorrect Charges,Low,Open,No,No,115,Komal
+289,2023-10-16,2023-10-18,Loan,Web Chat,East,Retail,Info Mismatch,Low,Resolved,No,No,178,Riya
+290,2023-10-17,2023-10-19,Mortgage,Web Chat,Central,Retail,Service Failure,Medium,Escalated,No,No,21,Riya
+291,2023-10-18,2023-10-20,Loan,Phone,South,Premier,Card Blocked,Medium,In Progress,Yes,No,82,Riya
+292,2023-10-19,2023-10-21,Savings,Email,West,Business,Info Mismatch,High,Open,No,Yes,183,Karan
+293,2023-10-20,2023-10-22,Savings,Mobile App,East,Retail,Login Issue,Low,Resolved,No,No,165,David
+294,2023-10-21,2023-10-23,Mortgage,Branch,South,Retail,Card Blocked,High,Resolved,No,No,130,David
+295,2023-10-22,2023-10-24,Mortgage,Mobile App,East,Business,Incorrect Charges,Medium,Escalated,No,No,144,Sara
+296,2023-10-23,2023-10-25,Insurance,Branch,South,Retail,Service Failure,Low,Escalated,No,No,18,Karan
+297,2023-10-24,2023-10-26,Insurance,Email,North,Retail,Login Issue,Low,Escalated,No,No,153,Riya
+298,2023-10-25,2023-10-27,Loan,Branch,East,Business,Login Issue,Medium,Open,Yes,No,59,Amit
+299,2023-10-26,2023-10-28,Mortgage,Phone,West,Business,Info Mismatch,Medium,Open,No,No,73,Sara
+300,2023-10-27,2023-10-29,Savings,Phone,West,Business,Login Issue,Medium,Escalated,No,No,110,Amit
+301,2023-10-28,2023-10-30,Insurance,Phone,Central,Business,Incorrect Charges,Medium,In Progress,Yes,No,24,David
+302,2023-10-29,2023-10-31,Insurance,Phone,South,Premier,Incorrect Charges,Medium,Resolved,Yes,No,175,Sara
+303,2023-10-30,2023-11-01,Savings,Mobile App,East,Business,Delay,Low,Resolved,No,No,73,Sara
+304,2023-10-31,2023-11-02,Insurance,Email,Central,Premier,Incorrect Charges,Medium,Open,No,No,9,Komal
+305,2023-11-01,2023-11-03,Loan,Branch,East,Premier,Card Blocked,Low,Resolved,No,No,60,David
+306,2023-11-02,2023-11-04,Mortgage,Branch,South,Premier,Login Issue,Low,In Progress,Yes,No,112,David
+307,2023-11-03,2023-11-05,Savings,Phone,West,Retail,Incorrect Charges,Medium,Resolved,No,No,188,Karan
+308,2023-11-04,2023-11-06,Mortgage,Phone,North,Premier,Info Mismatch,Medium,Open,No,No,14,Sara
+309,2023-11-05,2023-11-07,Insurance,Web Chat,West,Premier,Delay,Low,Open,No,No,168,David
+310,2023-11-06,2023-11-08,Insurance,Email,Central,Retail,Login Issue,Medium,In Progress,No,Yes,157,Sara
+311,2023-11-07,2023-11-09,Savings,Mobile App,North,Retail,Delay,Medium,In Progress,No,No,190,Karan
+312,2023-11-08,2023-11-10,Loan,Branch,Central,Retail,Login Issue,Medium,Resolved,No,Yes,17,Karan
+313,2023-11-09,2023-11-11,Credit Card,Web Chat,South,Business,Info Mismatch,High,Resolved,No,No,120,Komal
+314,2023-11-10,2023-11-12,Savings,Web Chat,North,Retail,Delay,Low,Open,No,Yes,3,Sara
+315,2023-11-11,2023-11-13,Credit Card,Branch,Central,Retail,Service Failure,High,In Progress,No,No,146,David
+316,2023-11-12,2023-11-14,Credit Card,Mobile App,South,Premier,Card Blocked,Medium,In Progress,No,No,31,David
+317,2023-11-13,2023-11-15,Loan,Web Chat,West,Retail,Card Blocked,High,In Progress,No,No,104,Sara
+318,2023-11-14,2023-11-16,Credit Card,Web Chat,South,Business,Login Issue,Medium,Resolved,Yes,No,14,Sara
+319,2023-11-15,2023-11-17,Credit Card,Email,East,Retail,Service Failure,High,In Progress,Yes,No,97,Sara
+320,2023-11-16,2023-11-18,Loan,Mobile App,South,Business,Delay,Medium,Open,Yes,No,95,Riya
+321,2023-11-17,2023-11-19,Credit Card,Web Chat,South,Retail,Service Failure,High,Open,No,No,83,David
+322,2023-11-18,2023-11-20,Credit Card,Mobile App,East,Retail,Service Failure,High,Resolved,No,Yes,14,Karan
+323,2023-11-19,2023-11-21,Credit Card,Branch,Central,Retail,Delay,High,Escalated,Yes,No,172,David
+324,2023-11-20,2023-11-22,Savings,Phone,Central,Retail,Info Mismatch,Low,Resolved,No,Yes,95,Riya
+325,2023-11-21,2023-11-23,Savings,Web Chat,South,Business,Service Failure,High,Escalated,No,No,150,Sara
+326,2023-11-22,2023-11-24,Savings,Email,East,Business,Service Failure,Low,In Progress,No,No,113,Komal
+327,2023-11-23,2023-11-25,Loan,Branch,East,Premier,Info Mismatch,Medium,Resolved,No,No,56,Sara
+328,2023-11-24,2023-11-26,Insurance,Mobile App,West,Business,Service Failure,High,Open,No,No,82,Sara
+329,2023-11-25,2023-11-27,Credit Card,Branch,Central,Retail,Service Failure,Medium,In Progress,Yes,No,169,Riya
+330,2023-11-26,2023-11-28,Credit Card,Web Chat,North,Premier,Service Failure,Medium,Open,No,Yes,117,David
+331,2023-11-27,2023-11-29,Loan,Mobile App,Central,Premier,Card Blocked,High,In Progress,No,No,144,Sara
+332,2023-11-28,2023-11-30,Credit Card,Phone,Central,Premier,Incorrect Charges,Low,Resolved,No,No,181,David
+333,2023-11-29,2023-12-01,Savings,Branch,West,Retail,Info Mismatch,High,Escalated,No,No,109,Amit
+334,2023-11-30,2023-12-02,Insurance,Web Chat,North,Business,Service Failure,Medium,In Progress,No,No,54,Karan
+335,2023-12-01,2023-12-03,Mortgage,Email,West,Retail,Card Blocked,Medium,Escalated,Yes,No,129,David
+336,2023-12-02,2023-12-04,Credit Card,Mobile App,North,Premier,Info Mismatch,High,In Progress,Yes,No,181,Komal
+337,2023-12-03,2023-12-05,Savings,Branch,South,Retail,Login Issue,Low,Open,No,No,159,Karan
+338,2023-12-04,2023-12-06,Mortgage,Branch,North,Retail,Login Issue,Low,Open,No,No,162,Komal
+339,2023-12-05,2023-12-07,Insurance,Phone,West,Business,Service Failure,Medium,In Progress,Yes,No,58,Sara
+340,2023-12-06,2023-12-08,Mortgage,Phone,Central,Business,Card Blocked,Medium,Escalated,No,No,53,Karan
+341,2023-12-07,2023-12-09,Savings,Email,North,Premier,Card Blocked,Low,Resolved,No,No,138,David
+342,2023-12-08,2023-12-10,Mortgage,Email,North,Retail,Info Mismatch,High,Resolved,No,No,183,Karan
+343,2023-12-09,2023-12-11,Loan,Web Chat,East,Retail,Info Mismatch,Medium,Open,No,No,112,Sara
+344,2023-12-10,2023-12-12,Mortgage,Web Chat,Central,Business,Card Blocked,Low,Resolved,No,Yes,2,Riya
+345,2023-12-11,2023-12-13,Credit Card,Email,South,Retail,Info Mismatch,Medium,Open,No,No,45,Komal
+346,2023-12-12,2023-12-14,Credit Card,Email,West,Retail,Card Blocked,High,Resolved,Yes,No,76,Sara
+347,2023-12-13,2023-12-15,Loan,Mobile App,South,Retail,Incorrect Charges,Low,In Progress,No,No,99,Riya
+348,2023-12-14,2023-12-16,Savings,Phone,Central,Business,Card Blocked,Medium,Open,No,No,10,Karan
+349,2023-12-15,2023-12-17,Credit Card,Web Chat,North,Premier,Login Issue,High,Open,No,Yes,33,Karan
+350,2023-12-16,2023-12-18,Insurance,Phone,North,Premier,Info Mismatch,Medium,In Progress,No,No,16,Sara
+351,2023-12-17,2023-12-19,Credit Card,Phone,Central,Retail,Card Blocked,High,Open,No,No,141,David
+352,2023-12-18,2023-12-20,Credit Card,Email,North,Premier,Card Blocked,High,Resolved,No,No,186,Karan
+353,2023-12-19,2023-12-21,Savings,Mobile App,North,Business,Info Mismatch,Low,Resolved,No,No,137,David
+354,2023-12-20,2023-12-22,Mortgage,Branch,North,Business,Incorrect Charges,High,Open,No,Yes,73,David
+355,2023-12-21,2023-12-23,Credit Card,Mobile App,West,Premier,Incorrect Charges,Medium,Resolved,Yes,No,156,David
+356,2023-12-22,2023-12-24,Loan,Mobile App,West,Premier,Info Mismatch,High,Escalated,No,Yes,191,Amit
+357,2023-12-23,2023-12-25,Mortgage,Phone,East,Retail,Delay,High,Open,No,No,13,Riya
+358,2023-12-24,2023-12-26,Insurance,Mobile App,South,Premier,Info Mismatch,Low,In Progress,Yes,No,66,Riya
+359,2023-12-25,2023-12-27,Savings,Web Chat,Central,Retail,Info Mismatch,High,Escalated,No,No,108,Karan
+360,2023-12-26,2023-12-28,Insurance,Phone,Central,Retail,Incorrect Charges,High,Open,No,No,43,Karan
+361,2023-12-27,2023-12-29,Mortgage,Web Chat,Central,Business,Incorrect Charges,Medium,In Progress,No,No,191,David
+362,2023-12-28,2023-12-30,Mortgage,Branch,East,Business,Info Mismatch,Low,Resolved,No,No,116,Amit
+363,2023-12-29,2023-12-31,Mortgage,Phone,West,Business,Info Mismatch,Low,In Progress,No,No,140,David
+364,2023-12-30,2024-01-01,Insurance,Branch,East,Business,Info Mismatch,Low,Escalated,No,No,104,Amit
+365,2023-12-31,2024-01-02,Mortgage,Phone,Central,Premier,Incorrect Charges,High,Resolved,No,No,172,David
+366,2024-01-01,2024-01-03,Insurance,Email,South,Business,Info Mismatch,Low,Open,Yes,Yes,96,Komal
+367,2024-01-02,2024-01-04,Mortgage,Mobile App,North,Premier,Info Mismatch,High,Resolved,No,No,18,Komal
+368,2024-01-03,2024-01-05,Loan,Email,West,Business,Service Failure,High,Open,No,No,161,Sara
+369,2024-01-04,2024-01-06,Mortgage,Branch,West,Premier,Delay,Medium,Open,No,No,86,David
+370,2024-01-05,2024-01-07,Insurance,Mobile App,East,Retail,Login Issue,Medium,In Progress,No,No,169,Karan
+371,2024-01-06,2024-01-08,Credit Card,Phone,West,Premier,Delay,Medium,In Progress,No,No,152,Riya
+372,2024-01-07,2024-01-09,Mortgage,Mobile App,Central,Premier,Service Failure,Medium,In Progress,Yes,Yes,57,Sara
+373,2024-01-08,2024-01-10,Credit Card,Web Chat,Central,Business,Login Issue,Medium,Escalated,No,No,135,Karan
+374,2024-01-09,2024-01-11,Loan,Mobile App,East,Premier,Info Mismatch,High,Escalated,No,No,87,Komal
+375,2024-01-10,2024-01-12,Savings,Web Chat,Central,Retail,Service Failure,High,In Progress,No,No,179,David
+376,2024-01-11,2024-01-13,Loan,Mobile App,South,Retail,Info Mismatch,Low,Escalated,Yes,Yes,103,Sara
+377,2024-01-12,2024-01-14,Mortgage,Web Chat,East,Business,Incorrect Charges,High,Resolved,Yes,No,166,David
+378,2024-01-13,2024-01-15,Credit Card,Branch,South,Retail,Card Blocked,High,Resolved,No,No,193,Komal
+379,2024-01-14,2024-01-16,Credit Card,Email,North,Premier,Service Failure,Medium,Escalated,No,No,55,Sara
+380,2024-01-15,2024-01-17,Insurance,Phone,South,Retail,Incorrect Charges,High,Escalated,No,Yes,178,Komal
+381,2024-01-16,2024-01-18,Credit Card,Mobile App,North,Business,Service Failure,Medium,Resolved,No,No,116,Amit
+382,2024-01-17,2024-01-19,Insurance,Email,North,Premier,Service Failure,Low,Open,No,No,140,Komal
+383,2024-01-18,2024-01-20,Savings,Phone,South,Business,Incorrect Charges,Low,Resolved,No,No,89,David
+384,2024-01-19,2024-01-21,Mortgage,Phone,East,Premier,Login Issue,High,Resolved,No,No,50,Riya
+385,2024-01-20,2024-01-22,Insurance,Web Chat,Central,Retail,Delay,Low,Escalated,No,No,150,Komal
+386,2024-01-21,2024-01-23,Savings,Branch,Central,Business,Info Mismatch,High,Resolved,Yes,No,116,Karan
+387,2024-01-22,2024-01-24,Credit Card,Branch,North,Business,Service Failure,Low,Escalated,No,Yes,195,Riya
+388,2024-01-23,2024-01-25,Credit Card,Email,North,Premier,Info Mismatch,Medium,Escalated,Yes,No,64,Amit
+389,2024-01-24,2024-01-26,Savings,Branch,East,Business,Card Blocked,Medium,In Progress,No,No,105,Sara
+390,2024-01-25,2024-01-27,Credit Card,Mobile App,West,Premier,Incorrect Charges,Medium,Resolved,No,No,84,Sara
+391,2024-01-26,2024-01-28,Savings,Branch,South,Premier,Info Mismatch,Medium,Open,Yes,No,104,Riya
+392,2024-01-27,2024-01-29,Insurance,Email,North,Premier,Incorrect Charges,High,In Progress,No,No,157,Sara
+393,2024-01-28,2024-01-30,Insurance,Branch,Central,Premier,Info Mismatch,Low,Escalated,No,No,18,Komal
+394,2024-01-29,2024-01-31,Savings,Mobile App,East,Retail,Delay,High,Escalated,No,No,7,Riya
+395,2024-01-30,2024-02-01,Insurance,Web Chat,South,Premier,Delay,Medium,Open,No,No,148,David
+396,2024-01-31,2024-02-02,Insurance,Email,East,Business,Delay,High,Escalated,Yes,No,185,Komal
+397,2024-02-01,2024-02-03,Insurance,Web Chat,South,Retail,Delay,Low,Resolved,No,No,29,Komal
+398,2024-02-02,2024-02-04,Loan,Web Chat,South,Business,Delay,High,In Progress,No,No,195,Komal
+399,2024-02-03,2024-02-05,Mortgage,Web Chat,North,Retail,Delay,Low,Escalated,No,No,39,David
+400,2024-02-04,2024-02-06,Credit Card,Phone,East,Premier,Incorrect Charges,High,Escalated,No,No,120,Amit
+401,2024-02-05,2024-02-07,Loan,Phone,East,Retail,Service Failure,Low,Open,No,No,38,Karan
+402,2024-02-06,2024-02-08,Insurance,Web Chat,Central,Retail,Info Mismatch,Low,Resolved,No,No,116,Sara
+403,2024-02-07,2024-02-09,Savings,Email,Central,Business,Delay,Medium,Escalated,No,No,69,Riya
+404,2024-02-08,2024-02-10,Insurance,Mobile App,North,Business,Incorrect Charges,Low,Open,No,No,178,Amit
+405,2024-02-09,2024-02-11,Mortgage,Mobile App,North,Premier,Incorrect Charges,Medium,Escalated,No,No,44,Riya
+406,2024-02-10,2024-02-12,Insurance,Branch,West,Retail,Incorrect Charges,Medium,Open,No,No,165,Sara
+407,2024-02-11,2024-02-13,Savings,Email,Central,Retail,Service Failure,Medium,Open,No,No,59,David
+408,2024-02-12,2024-02-14,Mortgage,Phone,South,Retail,Info Mismatch,High,Resolved,No,No,14,Komal
+409,2024-02-13,2024-02-15,Insurance,Web Chat,East,Premier,Service Failure,High,Escalated,No,No,53,Komal
+410,2024-02-14,2024-02-16,Mortgage,Branch,North,Premier,Login Issue,High,Resolved,No,No,59,David
+411,2024-02-15,2024-02-17,Credit Card,Mobile App,East,Premier,Incorrect Charges,High,Open,Yes,No,33,Amit
+412,2024-02-16,2024-02-18,Credit Card,Phone,East,Premier,Login Issue,Low,In Progress,No,No,106,Amit
+413,2024-02-17,2024-02-19,Insurance,Phone,West,Premier,Card Blocked,Low,Escalated,Yes,No,189,Riya
+414,2024-02-18,2024-02-20,Mortgage,Web Chat,Central,Business,Delay,High,In Progress,No,Yes,84,David
+415,2024-02-19,2024-02-21,Savings,Mobile App,North,Retail,Delay,Low,Escalated,No,No,187,Amit
+416,2024-02-20,2024-02-22,Insurance,Email,East,Retail,Service Failure,Low,Resolved,Yes,No,100,David
+417,2024-02-21,2024-02-23,Credit Card,Phone,North,Retail,Info Mismatch,Medium,Resolved,Yes,No,105,Sara
+418,2024-02-22,2024-02-24,Credit Card,Web Chat,South,Retail,Login Issue,Medium,Resolved,Yes,No,185,Komal
+419,2024-02-23,2024-02-25,Insurance,Email,West,Retail,Info Mismatch,Medium,Resolved,No,No,29,Komal
+420,2024-02-24,2024-02-26,Mortgage,Mobile App,South,Retail,Service Failure,Medium,Resolved,No,No,130,Komal
+421,2024-02-25,2024-02-27,Credit Card,Phone,North,Retail,Delay,Low,In Progress,No,No,171,David
+422,2024-02-26,2024-02-28,Mortgage,Email,North,Retail,Info Mismatch,High,Resolved,No,No,49,David
+423,2024-02-27,2024-02-29,Credit Card,Email,Central,Business,Info Mismatch,Low,Open,No,No,41,Riya
+424,2024-02-28,2024-03-01,Credit Card,Email,East,Retail,Delay,Low,Open,No,No,98,Komal
+425,2024-02-29,2024-03-02,Loan,Phone,East,Business,Login Issue,Low,In Progress,No,No,192,Riya
+426,2024-03-01,2024-03-03,Credit Card,Phone,South,Premier,Delay,Medium,Escalated,No,No,115,Komal
+427,2024-03-02,2024-03-04,Savings,Branch,West,Retail,Info Mismatch,Medium,Open,No,No,133,Riya
+428,2024-03-03,2024-03-05,Insurance,Mobile App,East,Premier,Login Issue,Medium,Escalated,No,No,167,Riya
+429,2024-03-04,2024-03-06,Insurance,Web Chat,Central,Premier,Login Issue,High,In Progress,No,No,156,Sara
+430,2024-03-05,2024-03-07,Mortgage,Email,South,Premier,Delay,Low,Escalated,No,No,138,Riya
+431,2024-03-06,2024-03-08,Credit Card,Branch,South,Business,Info Mismatch,High,Escalated,No,No,112,David
+432,2024-03-07,2024-03-09,Savings,Web Chat,Central,Premier,Service Failure,Medium,Escalated,No,No,145,Riya
+433,2024-03-08,2024-03-10,Mortgage,Branch,West,Premier,Info Mismatch,High,Escalated,No,No,185,Komal
+434,2024-03-09,2024-03-11,Loan,Phone,Central,Premier,Incorrect Charges,Low,In Progress,No,No,77,Riya
+435,2024-03-10,2024-03-12,Mortgage,Email,West,Retail,Card Blocked,Low,Open,No,No,32,Amit
+436,2024-03-11,2024-03-13,Mortgage,Web Chat,Central,Retail,Service Failure,Medium,Resolved,No,No,120,Karan
+437,2024-03-12,2024-03-14,Credit Card,Web Chat,Central,Business,Login Issue,Medium,Escalated,No,Yes,143,Komal
+438,2024-03-13,2024-03-15,Loan,Web Chat,North,Business,Service Failure,High,Open,Yes,No,26,Amit
+439,2024-03-14,2024-03-16,Mortgage,Web Chat,South,Retail,Login Issue,Medium,Open,No,No,35,Komal
+440,2024-03-15,2024-03-17,Savings,Web Chat,Central,Business,Login Issue,Medium,In Progress,No,No,68,David
+441,2024-03-16,2024-03-18,Savings,Branch,Central,Retail,Service Failure,Low,Open,No,Yes,153,Karan
+442,2024-03-17,2024-03-19,Insurance,Email,East,Premier,Login Issue,Medium,In Progress,Yes,No,119,Karan
+443,2024-03-18,2024-03-20,Loan,Phone,South,Premier,Login Issue,Medium,Escalated,Yes,Yes,74,David
+444,2024-03-19,2024-03-21,Loan,Phone,East,Business,Incorrect Charges,Low,Escalated,No,No,27,Karan
+445,2024-03-20,2024-03-22,Insurance,Phone,South,Retail,Info Mismatch,Low,Resolved,No,No,149,David
+446,2024-03-21,2024-03-23,Mortgage,Phone,East,Retail,Info Mismatch,High,Resolved,No,No,193,Amit
+447,2024-03-22,2024-03-24,Loan,Branch,Central,Business,Card Blocked,Medium,Resolved,No,Yes,105,Sara
+448,2024-03-23,2024-03-25,Savings,Mobile App,Central,Retail,Card Blocked,Low,Open,No,No,11,Komal
+449,2024-03-24,2024-03-26,Savings,Email,North,Premier,Incorrect Charges,High,Escalated,No,No,68,David
+450,2024-03-25,2024-03-27,Credit Card,Web Chat,East,Business,Card Blocked,High,In Progress,No,No,153,Komal
+451,2024-03-26,2024-03-28,Loan,Mobile App,West,Business,Service Failure,Medium,Resolved,No,No,6,Amit
+452,2024-03-27,2024-03-29,Mortgage,Phone,North,Retail,Delay,Medium,In Progress,No,No,196,Sara
+453,2024-03-28,2024-03-30,Insurance,Mobile App,East,Business,Delay,High,In Progress,Yes,No,187,Amit
+454,2024-03-29,2024-03-31,Insurance,Email,East,Retail,Delay,Low,Resolved,No,No,28,Karan
+455,2024-03-30,2024-04-01,Mortgage,Web Chat,North,Retail,Incorrect Charges,High,Escalated,No,No,114,Komal
+456,2024-03-31,2024-04-02,Credit Card,Web Chat,Central,Retail,Incorrect Charges,Medium,Resolved,No,No,16,Sara
+457,2024-04-01,2024-04-03,Insurance,Email,East,Retail,Login Issue,Low,In Progress,No,No,164,Karan
+458,2024-04-02,2024-04-04,Loan,Email,Central,Retail,Delay,Low,Resolved,Yes,No,106,Sara
+459,2024-04-03,2024-04-05,Credit Card,Phone,North,Business,Service Failure,High,In Progress,Yes,Yes,182,Karan
+460,2024-04-04,2024-04-06,Loan,Web Chat,Central,Premier,Card Blocked,Medium,In Progress,No,Yes,45,Amit
+461,2024-04-05,2024-04-07,Savings,Mobile App,South,Premier,Service Failure,High,Resolved,Yes,No,27,David
+462,2024-04-06,2024-04-08,Credit Card,Branch,West,Business,Card Blocked,High,Open,No,No,176,Komal
+463,2024-04-07,2024-04-09,Insurance,Branch,East,Business,Delay,High,Resolved,No,No,163,Riya
+464,2024-04-08,2024-04-10,Credit Card,Email,West,Premier,Delay,Low,Open,Yes,No,96,Riya
+465,2024-04-09,2024-04-11,Credit Card,Phone,Central,Premier,Delay,Low,In Progress,No,No,179,Amit
+466,2024-04-10,2024-04-12,Credit Card,Branch,East,Premier,Incorrect Charges,Medium,In Progress,No,No,85,Komal
+467,2024-04-11,2024-04-13,Credit Card,Web Chat,Central,Premier,Card Blocked,Medium,Open,No,No,141,Komal
+468,2024-04-12,2024-04-14,Loan,Email,South,Premier,Incorrect Charges,High,In Progress,No,Yes,133,Amit
+469,2024-04-13,2024-04-15,Savings,Mobile App,North,Retail,Incorrect Charges,High,Open,No,No,88,Komal
+470,2024-04-14,2024-04-16,Mortgage,Email,East,Business,Info Mismatch,High,Open,Yes,Yes,177,David
+471,2024-04-15,2024-04-17,Credit Card,Mobile App,South,Retail,Service Failure,Medium,In Progress,No,Yes,184,Amit
+472,2024-04-16,2024-04-18,Insurance,Email,South,Premier,Service Failure,Low,Escalated,No,No,113,David
+473,2024-04-17,2024-04-19,Credit Card,Email,East,Premier,Login Issue,Low,Open,No,No,130,Komal
+474,2024-04-18,2024-04-20,Insurance,Email,Central,Premier,Incorrect Charges,High,Resolved,No,No,90,Amit
+475,2024-04-19,2024-04-21,Loan,Mobile App,South,Retail,Card Blocked,High,Resolved,No,No,67,Komal
+476,2024-04-20,2024-04-22,Insurance,Mobile App,West,Retail,Info Mismatch,High,In Progress,No,No,159,Amit
+477,2024-04-21,2024-04-23,Mortgage,Email,South,Premier,Info Mismatch,High,Escalated,No,No,132,Komal
+478,2024-04-22,2024-04-24,Savings,Branch,Central,Retail,Service Failure,Medium,In Progress,No,Yes,123,David
+479,2024-04-23,2024-04-25,Insurance,Phone,Central,Retail,Incorrect Charges,Low,Escalated,No,No,150,David
+480,2024-04-24,2024-04-26,Insurance,Phone,West,Premier,Login Issue,High,Open,No,No,85,Komal
+481,2024-04-25,2024-04-27,Savings,Phone,South,Retail,Incorrect Charges,Medium,Open,No,No,178,Amit
+482,2024-04-26,2024-04-28,Mortgage,Mobile App,Central,Business,Delay,High,Open,Yes,Yes,117,Riya
+483,2024-04-27,2024-04-29,Credit Card,Mobile App,East,Business,Incorrect Charges,High,Open,No,No,191,David
+484,2024-04-28,2024-04-30,Insurance,Branch,North,Business,Delay,Low,Resolved,No,No,117,David
+485,2024-04-29,2024-05-01,Savings,Phone,North,Business,Delay,High,Resolved,No,No,39,Karan
+486,2024-04-30,2024-05-02,Loan,Phone,North,Premier,Login Issue,Low,In Progress,No,No,144,Riya
+487,2024-05-01,2024-05-03,Savings,Email,South,Premier,Card Blocked,Low,Escalated,No,No,111,Komal
+488,2024-05-02,2024-05-04,Loan,Mobile App,West,Premier,Service Failure,Low,Open,No,No,181,Amit
+489,2024-05-03,2024-05-05,Mortgage,Phone,Central,Business,Incorrect Charges,Medium,Open,No,No,47,Karan
+490,2024-05-04,2024-05-06,Credit Card,Branch,East,Business,Delay,Medium,Escalated,No,No,26,Komal
+491,2024-05-05,2024-05-07,Savings,Branch,East,Retail,Incorrect Charges,Low,Escalated,Yes,No,22,Sara
+492,2024-05-06,2024-05-08,Insurance,Phone,South,Retail,Card Blocked,High,In Progress,No,No,122,David
+493,2024-05-07,2024-05-09,Mortgage,Mobile App,North,Business,Service Failure,Low,Escalated,No,No,123,Sara
+494,2024-05-08,2024-05-10,Savings,Branch,South,Business,Card Blocked,High,Open,Yes,No,134,David
+495,2024-05-09,2024-05-11,Insurance,Email,West,Business,Service Failure,Low,Open,No,No,71,David
+496,2024-05-10,2024-05-12,Savings,Branch,West,Business,Info Mismatch,High,Open,No,No,114,Sara
+497,2024-05-11,2024-05-13,Loan,Web Chat,Central,Retail,Service Failure,Medium,Open,No,No,108,Sara
+498,2024-05-12,2024-05-14,Savings,Web Chat,Central,Business,Login Issue,High,Open,Yes,No,113,Komal
+499,2024-05-13,2024-05-15,Savings,Mobile App,West,Retail,Card Blocked,Low,In Progress,No,No,109,Karan
+500,2024-05-14,2024-05-16,Savings,Phone,West,Business,Delay,Medium,Open,No,No,48,Karan
